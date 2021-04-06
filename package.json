@@ -1,0 +1,16 @@
+{
+  "name": "tailwind_css_boilerplate_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "npx tailwindcss-cli@latest build ./src/tailwind.css -o ./public/style.css",
+    "build": "cross-env NODE_ENV=production npx tailwindcss-cli@latest build ./src/tailwind.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "Mario Laurich (Programmieren mit Mario)",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
