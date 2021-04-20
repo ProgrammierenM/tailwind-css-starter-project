@@ -1,4 +1,4 @@
-# Tailwind CSS - HTML Boilerplate Project
+# Tailwind CSS - HTML Starter Project
 
 Das Projekt Setup für eine statische HTML Website. Es wird Tailwind CSS als Framework verwendet. Individuelle CSS Klassen können in [src/tailwind.css](src/tailwind.css) angelegt werden. Bei jeder Änderung muss im Anschluss das Tailwind CSS neu kompeliert werden (Siehe Befehle [weiter unten](#Projekt-Setup)).
 Das komplette CSS befindet sich dann in [public/style.css](public/style.css).
