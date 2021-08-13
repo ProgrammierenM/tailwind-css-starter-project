@@ -4,8 +4,8 @@
   "description": "",
   "main": "public/index.html",
   "scripts": {
-    "dev": "npx tailwindcss-cli@latest build ./src/tailwind.css -o ./public/style.css",
-    "build": "cross-env NODE_ENV=production npx tailwindcss-cli@latest build ./src/tailwind.css -o ./public/style.css"
+    "dev": "npx tailwindcss-cli@latest build -i ./src/tailwind.css -o ./public/style.css",
+    "build": "cross-env NODE_ENV=production npx tailwindcss-cli@latest build -i ./src/tailwind.css -o ./public/style.css"
   },
   "keywords": [],
   "author": "Mario Laurich (Programmieren mit Mario)",
